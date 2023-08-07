@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Admin">
+    <output-path>$PROJECT_DIR$/out/artifacts/Admin</output-path>
+    <root id="archive" name="Admin.jar">
+      <element id="module-output" name="Administrator" />
+      <element id="module-output" name="Dto" />
+      <element id="module-output" name="System" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Administrator/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane nodeOrientation="LEFT_TO_RIGHT" stylesheets="@topScreen.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminComponents.screenThree.topScreen.TopScreenController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" />
+      <ColumnConstraints hgrow="ALWAYS" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints vgrow="ALWAYS" />
+      <RowConstraints vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <BorderPane nodeOrientation="LEFT_TO_RIGHT" GridPane.rowIndex="1">
+         <top>
+            <Label fx:id="historyFlowsLabel" alignment="CENTER" contentDisplay="CENTER" style="-fx-font-weight: bold;" text="History Flow Executions Table:" textOverrun="CLIP" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <TableView fx:id="tableFlowExecution" nodeOrientation="RIGHT_TO_LEFT" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn fx:id="userNameTableColum" minWidth="150.0" prefWidth="-1.0" text="User name" />
+                  <TableColumn fx:id="resultExecutionColumn" minWidth="150.0" prefWidth="-1.0" text="Result of the execution:" />
+                  <TableColumn fx:id="startDateColumn" minWidth="150.0" prefWidth="-1.0" text="Start date:" />
+                  <TableColumn fx:id="flowNameColumn" minWidth="150.0" prefWidth="-1.0" text="Flow Name:" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+            </TableView>
+         </center>
+      </BorderPane>
+      <ComboBox fx:id="resultComboBox" onAction="#handleComboBoxAction" prefWidth="150.0" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </ComboBox>
+   </children>
+</GridPane>
