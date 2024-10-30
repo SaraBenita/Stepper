@@ -23,7 +23,7 @@ The system allows multiple users to interact with defined flows simultaneously, 
       - Right pane displays roles, flows, and status.
       - Role updates are managed via "Available Roles" and "Selected Roles" lists.
       - Save changes with the **"Save Changes"** button and refresh with the **"Auto Updates"** button.
-        <img src="./Screenshots/A1.png" alt="A1" width="800">
+<img src="./Screenshots/A1.png" alt="A1" width="600">
 
 2. **Screen 2: Role Management**  
    - **Description:** Allows viewing and updating role information, managing flows for roles, and assigning roles to users.  
@@ -31,13 +31,15 @@ The system allows multiple users to interact with defined flows simultaneously, 
       - Left pane displays the role list.
       - Right pane displays role-specific information.
       - Admins can add a new role via the **"New Role"** button and save with the **"Save"** button.
-       <img src="./Screenshots/A2.png" alt="A2" width="800">
+<img src="./Screenshots/A2.png" alt="A2" width="600">
 
 3. **Screen 3: Execution Overview**  
    - **Description:** Displays all executions in the system. Basic details are initially shown, with more details available upon row selection.
+<img src="./Screenshots/A3.png" alt="A3" width="600">
 
 4. **Screen 4: Statistics**  
    - **Description:** Displays statistics on flow executions in tables and diagrams.
+<img src="./Screenshots/A4.png" alt="A4" width="600">
 
 **General Note:** Saving updates is done with the **"Save"** button on Screens 1 and 2. To update displays, use the **"Update"** button to refresh information on other screens.
 
@@ -50,12 +52,15 @@ The system allows multiple users to interact with defined flows simultaneously, 
       - Accordion layout shows flows available to the user.
       - **"Show More Details"** button provides additional flow information.
       - **"Execute Flow"** button initiates flow execution.
+<img src="./Screenshots/C1.png" alt="C1" width="600">
 
 2. **Screen 2: Flow Execution**  
    - **Description:** Clients input required data, execute flows, and monitor execution progress.  
    - **Features:**  
       - Shows free inputs, step progress, and allows continuation or re-execution.
       - **"Continue Flow"** and **"Rerun"** buttons are available for extended actions.
+<img src="./Screenshots/C2.png" alt="C2" width="600">
 
 3. **Screen 3: Execution Overview**  
    - **Description:** Displays all runs, with additional details available by selecting rows.
+<img src="./Screenshots/C3.png" alt="C3" width="600">
