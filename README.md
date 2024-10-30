@@ -23,7 +23,7 @@ The system allows multiple users to interact with defined flows simultaneously, 
       - Right pane displays roles, flows, and status.
       - Role updates are managed via "Available Roles" and "Selected Roles" lists.
       - Save changes with the **"Save Changes"** button and refresh with the **"Auto Updates"** button.
-        <img src="./Screenshots/A1" alt="A1" width="800">
+        <img src="./Screenshots/A1.png" alt="A1" width="800">
 
 2. **Screen 2: Role Management**  
    - **Description:** Allows viewing and updating role information, managing flows for roles, and assigning roles to users.  
@@ -31,6 +31,7 @@ The system allows multiple users to interact with defined flows simultaneously, 
       - Left pane displays the role list.
       - Right pane displays role-specific information.
       - Admins can add a new role via the **"New Role"** button and save with the **"Save"** button.
+       <img src="./Screenshots/A2.png" alt="A2" width="800">
 
 3. **Screen 3: Execution Overview**  
    - **Description:** Displays all executions in the system. Basic details are initially shown, with more details available upon row selection.
