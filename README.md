@@ -58,6 +58,7 @@ The system allows multiple users to interact with defined flows simultaneously, 
    - **Description:** Clients input required data, execute flows, and monitor execution progress.  
    - **Features:**  
       - Shows free inputs, step progress, and allows continuation or re-execution.
+        
       - **"Continue Flow"** and **"Rerun"** buttons are available for extended actions.
 <img src="./Screenshots/C2.png" alt="C2" width="600">
 
