@@ -1,5 +1,7 @@
 # Stepper
 
+Stepper is a versatile workflow engine that empowers even non-technical users to design and execute operational processes through an intuitive and consistent interface. The system is based on modular, self-contained components called Steps, where each step performs a specific task (such as deleting a file or executing a command). These steps can be linked through defined inputs and outputs to create a Flow, representing a complete process. By combining steps in different ways, users can build dynamic workflows tailored to their needs and automate complex operations with ease.
+
 Developed in in Java language in three UI interfaces: Console, Desktop and Client-Server application. 
 JavaFX was used for the purpose of realizing the display and operation of the system as a graphical application and
 in addition using the Http communication protocol for client-server development.                                                                                    An application that assembles various scenarios from common components that can be performed on a computer,
